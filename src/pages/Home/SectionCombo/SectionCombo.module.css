@@ -1,0 +1,10 @@
+.combos_sect {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+h4{
+    margin-top: 70px;
+}

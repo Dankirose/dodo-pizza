@@ -1,0 +1,13 @@
+
+.newANDpopular {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    
+}
+
+.new {
+    margin-top: 70px;
+}
+
+

@@ -1,0 +1,13 @@
+.combos_sect {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.combo_sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}

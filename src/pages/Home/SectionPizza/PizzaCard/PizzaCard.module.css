@@ -1,0 +1,63 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.infoCardDesc {
+    margin-top: 10px;
+    color: var(--Gray-dark, #73798C);
+    font-size: 14px;
+    font-weight: 400;
+    width: 224px;
+    height: 38px;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.priceFull {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.price {
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn_take {
+    height: 40px;
+    width: 120px;
+    border-radius: 1000px;
+    border: none;
+    background: var(--Orange-light, #FFF0E6);
+    font-size: 16px;
+    color: var(--Orange-dark, #D15700);
+    cursor: pointer;
+    &::before {
+  content: "Выбрать";
+}
+
+}
+
+.specialBtn {
+    background: var(--Orange-light, #FFF0E6);
+    &:hover {
+        background: #D15700;
+    }
+    &:hover::before {
+        content: "Собрать";
+        color: #FFF;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+.combos_sect {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.combo_sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+h6 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.combo_desc {
+    margin-top: 10px;
+    color: var(--Gray-dark, #73798C);
+    font-size: 14px;
+    font-weight: 400;
+    width: 224px;
+    height: 38px;
+}
+.price {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.priceFull {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 60px;
+}
+.specialBtn {
+        height: 40px;
+        width: 120px;
+        border-radius: 1000px;
+        border: none;
+        background: var(--Orange-light, #FFF0E6);
+        font-size: 16px;
+        color: var(--Orange-dark, #D15700);
+        cursor: pointer;
+        &::before {
+      content: "Выбрать";
+        }
+        &:hover {
+            background: #D15700;
+        }
+        &:hover::before {
+            content: "Собрать";
+            color: #FFF;
+        }
+}

@@ -1,0 +1,184 @@
+.list__ul {
+    display: flex;
+    grid-area: 1 / 1 / 2 / 3;
+}
+li {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    
+}
+b {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+.dodo__pizza {
+    width: 140px;
+    margin-right: 40px;
+}
+nav .nav li a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 0.7;
+    
+    line-height: 26px;
+}
+.job {
+    width: 110px;
+    margin-right: 60px;
+}
+.partners{
+    width: 154px;
+    margin-right: 36px;
+}
+.interesting{
+    width: 140px;
+   
+}
+.google__app {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.google__app button {
+    cursor: pointer;
+    border: none;
+    background: #464C55;
+}
+
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.footer__contacts a {
+    margin-top: 30px;
+    color: #FFF;
+    font-size: 26px;
+}
+.footer__contacts p {
+    color: #FFF;
+    font-size: 15px;
+    opacity: 0.5;
+}
+.footer__contacts i {
+    margin-top: 20px;
+    color: #FFF;
+    opacity: 0.9;
+    font-style: normal;
+}
+.footer__contacts i a {
+    margin-top: 20px;
+    color: #FFF;
+    opacity: 0.9;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.footer {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 93px;
+}
+.footer__second {
+    display: flex;
+}
+footer {
+    background: #464C55;
+    margin-top: 140px;
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.footer_cash {
+    width: 299px;
+    grid-area: 2 / 1 / 3 / 2; 
+    margin-bottom: 40px;
+}
+.number {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.number__desc {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.7;
+    margin-top: 12px;
+}
+.footer__contact {
+    grid-area: 1 / 3 / 2 / 4; 
+}
+.footer__desc {
+    width: 241px;
+    margin-left: 60px;
+    grid-area: 2 / 2 / 3 / 3;
+    
+}
+.footer__second {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.logotype {
+    display: flex;
+    gap: 28px;
+}
+.logotype p{
+    color: #FFF;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;   
+    line-height: 22px
+}
+.easy__info {
+    display: flex;
+    gap: 20px;
+    margin-left: 70px;
+}
+
+.easy__info a {
+    color: #FFF;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.logo {
+    width: 191.613px;
+    height: 22px;
+}
+.btn__sub {
+    display: flex;
+    margin-left: 245px;
+}
+.btn__img {
+    width: 18px;
+    height: 18px;
+    background: #464C55;
+    
+}
+.btn__sub button {
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    background: #FFF;
+}

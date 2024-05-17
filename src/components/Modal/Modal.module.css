@@ -1,0 +1,126 @@
+.modal {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.815);
+}
+.modal__info {
+  display: flex;
+  border-radius: 24px;
+  background-color: #fefffe;
+  margin: 10% auto;
+  width: 920px;
+  height: 610px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.btn__closed {
+  position: relative;
+  left: 960px;
+  border: none;
+  background: none;
+  color: #fff;
+  height: 10px;
+  scale: 5;
+  text-align: justify;
+  
+  
+}
+.sizePizza {
+  display: flex;
+  background: #F3F3F7;
+  border-radius: 100px;
+  justify-content: center;
+}
+.pizzaIMG {
+  
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.pizzaIMG_image {
+  width: 400px;
+  height: 400px;
+}
+.pizza__option {
+  
+  padding: 20px;
+}
+.optionTesto {
+  border-radius: 100px;
+  background: #F3F3F7;
+  margin-top: 12px;
+}
+.title__pizza_option {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.medium__pizza_option {
+  color: var(--Gray-dark, #73798C);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 11px;
+}
+.test__pizza_option {
+  height: 60px;
+  margin-bottom: 22px;
+}
+.sizePizza_btn {
+  height: 32px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  background: none;
+}
+.optionTesto_btn {
+  height: 32px;
+  border: none;
+  background: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.ingred_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100px;
+  height: 150px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px 0px rgba(6, 5, 50, 0.05);
+}
+.active {
+  border: solid 2px orange;
+}
+.ingredients_cards {
+  margin-top: 11px;
+  display: grid;
+  grid-template-columns: repeat(3, 115px);
+  grid-gap: 10px;
+  overflow-y: scroll;
+  height: 270px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.result_price{
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 48px;
+  border-radius: 48px;
+  background: var(--Orange-corporate, #F96900);
+  position: fixed;
+  margin: 0% auto;
+  border: none;
+  color: #fff;
+  display: flex;
+}
+.result_price:hover {
+  background: var(--Orange-corporate, #b34b01);
+  color: #fff;
+}

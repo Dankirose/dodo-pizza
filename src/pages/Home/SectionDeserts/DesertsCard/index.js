@@ -1,0 +1,1 @@
+export {DesertsCard} from './DesertsCard'

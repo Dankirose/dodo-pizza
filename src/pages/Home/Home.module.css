@@ -1,0 +1,104 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infoCardDesc {
+    margin-top: 10px;
+    color: var(--Gray-dark, #73798C);
+    font-size: 14px;
+    font-weight: 400;
+    width: 224px;
+    height: 38px;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.priceFull {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn_take {
+    height: 40px;
+    width: 120px;
+    border-radius: 1000px;
+    border: none;
+    background: var(--Orange-light, #FFF0E6);
+    font-size: 16px;
+    color: var(--Orange-dark, #D15700);
+    cursor: pointer;
+    &::before {
+  content: "Выбрать";
+}
+
+}
+.price {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.specialBtn {
+    background: var(--Orange-light, #FFF0E6);
+    &:hover {
+        background: #D15700;
+    }
+    &:hover::before {
+        content: "Собрать";
+        color: #FFF;
+    }
+}
+.newANDpopular {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    
+}
+.newANDpopular_card {
+    width: 232px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 25px 0px rgba(6, 5, 50, 0.05);
+    padding-left: 18px;
+    cursor: pointer;
+}
+.new {
+    margin-top: 70px;
+}
+.name_place {
+    margin-left: 22px;
+}
+.h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 4px;
+}
+.pricePopul {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+section {
+    margin-top: 70px;
+}
